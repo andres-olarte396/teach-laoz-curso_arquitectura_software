@@ -1,0 +1,50 @@
+# GUIÓN: TEMA 3.3 (PIPES AND FILTERS)
+
+## FICHA TÉCNICA
+
+- **Duración**: 4 minutos
+- **Tono**: Industrial.
+
+---
+
+### 00:00 - LA LÍNEA DE MONTAJE
+
+**[LOCUTOR]**:
+Henry Ford revolucionó la industria no por inventar el coche, sino por inventar la línea de montaje.
+Antes, un artesano hacía el coche entero.
+Ford dijo: "Tú solo pones ruedas. Tú solo pones puertas. Tú solo pintas".
+Eso es el patrón **Pipeline**.
+
+Cada trabajador (Filtro) es experto en una tarea minúscula.
+No sabe quién puso la puerta antes que él. Solo sabe que le llega un chasis con puerta y él debe ponerle el volante.
+
+---
+
+### 01:15 - UNIX PHILOSOPHY
+
+**[LOCUTOR]**:
+En informática, Unix es el rey de este patrón.
+Haz programas pequeños que hagan una cosa bien hecha.
+Luego conéctalos con tuberías (`pipes`).
+El comando `sort` ordena líneas. No sabe de dónde vienen las líneas.
+El comando `uniq` quita duplicados.
+Si conectas `sort | uniq`, tienes un sistema potente creado a partir de piezas tontas.
+
+---
+
+### 02:30 - EL FLUJO DE DATOS
+
+**[LOCUTOR]**:
+Lo importante aquí es que los datos fluyen.
+No esperas a leer todo el archivo de 1 Terabyte para empezar a procesar.
+Procesas byte a byte. Gota a gota.
+Esto permite procesar datos infinitos con memoria finita.
+
+---
+
+### 03:40 - CIERRE
+
+**[LOCUTOR]**:
+Si estás procesando imágenes, video, logs o transacciones bancarias en lote... piensa en Tuberías.
+Piensa en una cadena de fábrica.
+Es la forma más eficiente de mover datos del punto A al punto B transformándolos por el camino.

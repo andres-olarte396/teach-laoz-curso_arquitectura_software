@@ -1,0 +1,30 @@
+# TEMA 3.2: MICROKERNEL (PLUG-IN ARCHITECTURE)
+
+**Tiempo estimado**: 45 minutos
+**Nivel**: Avanzado
+**Prerrequisitos**: Tema 3.1
+
+## 1. El Problema de la Personalización
+Tienes una app que usan 100 clientes distintos.
+El Cliente A quiere pagar con Paypal. El B con Stripe. El C con Bitcoin.
+Si pones TODA esa lógica en el código principal (`if (client == A) ...`), creas un monstruo inmanejable.
+
+## 2. La Solución: Microkernel
+Divides el sistema en dos partes:
+1.  **Core System (Microkernel)**: La lógica mínima indispensable que comparten todos. (Ej: "Procesar Pedido").
+2.  **Plug-ins Modules**: Componentes independientes que añaden funcionalidad específica. (Ej: "Plugin Paypal", "Plugin Stripe").
+
+## 3. Ejemplo: VS Code
+VS Code es un editor de texto simple (Core).
+Todo lo demás (Python support, GitLens, Themes) son extensiones (Plugins).
+El Core no sabe nada de Python. Solo sabe "Cargar extensión" y "Ejecutar comando".
+
+## 4. Contratos (API)
+Para que funcione, el Core debe definir un Contrato estricto (Interfaz).
+`interface IPaymentPlugin { function pay(amount); }`
+Cualquier plugin que respete esa firma puede enchufarse.
+
+---
+## Resumen
+Útil para software de escritorio, navegadores y productos SaaS muy customizables.
+Difícil de implementar porque el Core debe ser muy estable (si cambia el API del Core, rompes 1000 plugins).

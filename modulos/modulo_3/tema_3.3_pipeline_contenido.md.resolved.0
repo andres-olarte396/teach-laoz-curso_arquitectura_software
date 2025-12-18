@@ -1,0 +1,31 @@
+# TEMA 3.3: PIPELINE (PIPES AND FILTERS)
+
+**Tiempo estimado**: 45 minutos
+**Nivel**: Intermedio
+**Prerrequisitos**: Tema 3.1
+
+## 1. La Tubería de Datos
+A veces tu aplicación no es interactiva. Es solo "procesar datos".
+Entra un archivo CSV -> Se valida -> Se transforma -> Se guarda en BD.
+Esto es un Pipeline.
+
+## 2. Componentes
+1.  **Filter (Filtro)**: Un componente independiente que hace UNA sola cosa.
+    *   `Filter A`: Convierte mayúsculas.
+    *   `Filter B`: Elimina duplicados.
+2.  **Pipe (Tubería)**: El conector que lleva el output de A al input de B.
+
+## 3. Ejemplo: Unix
+El mejor ejemplo del mundo.
+`cat archivo.txt | grep "error" | sort | uniq > reporte.txt`
+Cada comando es un filtro. `|` es el pipe.
+Los filtros no se conocen entre sí. Solo esperan texto en STDIN y escupen texto en STDOUT.
+
+## 4. Pros y Contras
+*   **Pros**: Reutilización extrema. Puedes recombinar filtros en cualquier orden. Paralelismo (cada filtro puede correr en su propio hilo).
+*   **Contras**: Overhead de parseo (A escupe JSON, B tiene que leer JSON). Manejo de errores global complicado.
+
+---
+## Resumen
+Ideal para ETLs (Extract, Transform, Load), compiladores y procesamiento de video.
+No lo uses para una web interactiva compleja.

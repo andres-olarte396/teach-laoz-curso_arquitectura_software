@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema 3.2 Microkernel</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            line-height: 1.8;
+            font-size: 18px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+        }
+        .content {
+            color: #333;
+            text-align: justify;
+        }
+        .instructions {
+            background-color: #e8f4f8;
+            border-left: 4px solid #3498db;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        .instructions h2 {
+            margin-top: 0;
+            color: #2980b9;
+            font-size: 16px;
+        }
+        .instructions ol {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+        .instructions li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tema 3.2 Microkernel</h1>
+        
+        <div class="instructions">
+            <h2>📢 Instrucciones para escuchar con voz Salome (Colombia)</h2>
+            <ol>
+                <li>Haz clic derecho en esta página</li>
+                <li>Selecciona <strong>"Leer en voz alta"</strong> o presiona <strong>Ctrl + Shift + U</strong></li>
+                <li>En el panel de lectura, haz clic en <strong>Opciones de voz</strong> (⚙️)</li>
+                <li>Selecciona la voz: <strong>es-CO-SalomeNeural (Colombia)</strong></li>
+                <li>Ajusta la velocidad a tu preferencia</li>
+                <li>Presiona <strong>Play ▶️</strong> para comenzar</li>
+            </ol>
+        </div>
+        
+        <div class="content">
+            🎧 GUIÓN DE AUDIO: TEMA 3.2 - Microkernel (Plugins) ## Ficha Técnica - Duración: 4 minutos - Tono: Ingenieril. --- ### EL TELÉFONO MÓVIL 📱 [LOCUTOR]: Iniciamos con el patrón Microkernel, también conocido como Arquitectura de Plugins. [Música de fondo sutil entra y se mantiene bajo] Piensa en tu teléfono móvil. Viene de fábrica con lo esencial: Llamar, Contactos, Ajustes. Ese es el Core, el kernel mínimo. Pero tú quieres más. Quieres WhatsApp, Spotify, Candy Crush. Instalas aplicaciones. Esas aplicaciones son los Plugins o extensiones. El sistema operativo (Android o iOS) actúa como el Microkernel. Su trabajo es ser estable y proveer los servicios base esenciales que el Core necesita (GPS, Cámara, Pantalla, Red) a los plugins. Lo importante es que el Core es pequeño, inmutable, y su única responsabilidad es orquestar los plugins. --- ### ENCHUFAR Y LISTO 🔌 [LOCUTOR]: La belleza de esta arquitectura es la extensibilidad. Los creadores de Android no tuvieron que programar Spotify ni la nueva aplicación de fitness que salió ayer. Simplemente crearon una API pública, un contrato estandarizado: "Aquí tienes cómo acceder al GPS", "Aquí tienes cómo sacar sonido". Y dejaron que otros innovaran sobre esa plataforma. Si estás creando un software empresarial complejo, como un sistema de gestión de impuestos o un framework analítico, no intentes programar todos los casos de uso especializados tú solo. Crea un Core sólido y pequeño, y define las Interfaces de Extensión (los hooks). Luego, permite que otros equipos dentro de la empresa (o incluso terceros) programen Plugins (Add-ons) para funcionalidades específicas o casos de uso regionalizados. Esto permite el desarrollo paralelo y la escalabilidad funcional. --- ### EL REGISTRO DE PLUGINS 📋 [LOCUTOR]: Para que esto funcione, el Core necesita saber quiénes son los invitados. Necesita un Plugin Registry o Registro de Plugins. Esta es una configuración o un proceso que, al arrancar la aplicación, le permite al Core buscar y cargar todos los plugins disponibles, y conectarlos a las interfaces que el Core provee. Es vital que la Dependencia vaya en una sola dirección: Plugin -> Core. Nunca al revés. El Core no debe tener conocimiento explícito de ningún plugin específico. Si borras la aplicación de Spotify, el teléfono sigue funcionando perfectamente, solo pierde esa funcionalidad. Si el Core dependiera de un plugin, al eliminarlo, el sistema base fallaría. El Microkernel es independiente de sus extensiones. --- ### CIERRE 🚀 [LOCUTOR]: Usa el patrón Microkernel cuando la clave de tu producto sea la personalización y cuando no sepas qué funcionalidades va a necesitar el usuario en el futuro. Piensa en las herramientas que usas a diario: Eclipse, VS Code, Jira, WordPress. Todos son Microkernels. Su éxito no es solo su código base, es su ecosistema de plugins. El arquitecto aquí construye plataformas, no solo aplicaciones. [Música de fondo se eleva y se desvanece]
+        </div>
+    </div>
+</body>
+</html>

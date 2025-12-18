@@ -1,0 +1,349 @@
+{
+  "id": "arquitectura-software-avanzada",
+  "title": "Arquitectura de Software Avanzada y Detallada",
+  "description": "Curso de 0 a Experto en Arquitectura de Software, desde patrones monolíticos hasta sistemas distribuidos y cloud native.",
+  "modules": [
+    {
+      "modulo_id": 0,
+      "titulo": "NIVELACIÓN Y FUNDAMENTOS (PRECONCEPTOS)",
+      "temas": [
+        {
+          "tema_id": "0.1",
+          "titulo": "Glosario de Arquitectura",
+          "subtemas": [
+            { "subtema_id": "0.1.1", "titulo": "Trade-off" },
+            { "subtema_id": "0.1.2", "titulo": "Latencia" },
+            { "subtema_id": "0.1.3", "titulo": "Throughput" },
+            { "subtema_id": "0.1.4", "titulo": "Disponibilidad" },
+            { "subtema_id": "0.1.5", "titulo": "Consistencia" },
+            { "subtema_id": "0.1.6", "titulo": "Tolerancia a Fallos" },
+            { "subtema_id": "0.1.7", "titulo": "Elasticidad" }
+          ]
+        },
+        {
+          "tema_id": "0.2",
+          "titulo": "Fundamentos de Arquitectura de Software",
+          "subtemas": [
+            { "subtema_id": "0.2.1", "titulo": "Diseño vs Arquitectura" },
+            { "subtema_id": "0.2.2", "titulo": "Arquitectura como conjunto de decisiones" },
+            { "subtema_id": "0.2.3", "titulo": "NFR (Non Functional Requirements)" }
+          ]
+        },
+        {
+          "tema_id": "0.3",
+          "titulo": "Diagramación Esencial",
+          "subtemas": [
+            { "subtema_id": "0.3.1", "titulo": "C4 Model" },
+            { "subtema_id": "0.3.2", "titulo": "Diagramas de Secuencia" },
+            { "subtema_id": "0.3.3", "titulo": "Diagramas de Componentes" }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 1,
+      "titulo": "LA MINDSET DEL ARQUITECTO",
+      "temas": [
+        {
+          "tema_id": "1.1",
+          "titulo": "¿Qué es realmente la Arquitectura?",
+          "subtemas": [
+            { "subtema_id": "1.1.1", "titulo": "Estructura vs Comportamiento" },
+            { "subtema_id": "1.1.2", "titulo": "Arquitectura como decisiones difíciles de cambiar" },
+            { "subtema_id": "1.1.3", "titulo": "Documentación viva y ADRs" }
+          ]
+        },
+        {
+          "tema_id": "1.2",
+          "titulo": "Atributos de Calidad (-ilities)",
+          "subtemas": [
+            { "subtema_id": "1.2.1", "titulo": "Scalability" },
+            { "subtema_id": "1.2.2", "titulo": "Maintainability" },
+            { "subtema_id": "1.2.3", "titulo": "Performance" },
+            { "subtema_id": "1.2.4", "titulo": "Reliability" },
+            { "subtema_id": "1.2.5", "titulo": "Security" },
+            { "subtema_id": "1.2.6", "titulo": "Testability" },
+            { "subtema_id": "1.2.7", "titulo": "Usability" }
+          ]
+        },
+        {
+          "tema_id": "1.3",
+          "titulo": "Ley de Conway y Diseño Organizacional",
+          "subtemas": [
+            { "subtema_id": "1.3.1", "titulo": "Implicaciones en microservicios" },
+            { "subtema_id": "1.3.2", "titulo": "Inversión del Diseño de Conway" }
+          ]
+        },
+        {
+          "tema_id": "1.4",
+          "titulo": "Arquitecto como Líder Técnico",
+          "subtemas": [
+            { "subtema_id": "1.4.1", "titulo": "Comunicación" },
+            { "subtema_id": "1.4.2", "titulo": "Mentoría" },
+            { "subtema_id": "1.4.3", "titulo": "Toma de Decisiones" }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 2,
+      "titulo": "DISEÑO LIMPIO Y DEUDA TÉCNICA",
+      "temas": [
+        {
+          "tema_id": "2.1",
+          "titulo": "Modularidad Eficaz",
+          "subtemas": [
+            { "subtema_id": "2.1.1", "titulo": "Acoplamiento" },
+            { "subtema_id": "2.1.2", "titulo": "Cohesión" },
+            { "subtema_id": "2.1.3", "titulo": "Separación de Responsabilidades" },
+            { "subtema_id": "2.1.4", "titulo": "Bounded Context" }
+          ]
+        },
+        {
+          "tema_id": "2.2",
+          "titulo": "Principios SOLID en Arquitectura",
+          "subtemas": [
+            { "subtema_id": "2.2.1", "titulo": "Interpretación práctica a nivel de componentes y módulos" }
+          ]
+        },
+        {
+          "tema_id": "2.3",
+          "titulo": "Arquitectura Limpia y Hexagonal",
+          "subtemas": [
+            { "subtema_id": "2.3.1", "titulo": "Ports & Adapters" },
+            { "subtema_id": "2.3.2", "titulo": "Dependencia hacia adentro" },
+            { "subtema_id": "2.3.3", "titulo": "Testing con dobles" }
+          ]
+        },
+        {
+          "tema_id": "2.4",
+          "titulo": "Deuda Técnica",
+          "subtemas": [
+            { "subtema_id": "2.4.1", "titulo": "Tipos de Deuda" },
+            { "subtema_id": "2.4.2", "titulo": "Priorización y Pago" },
+            { "subtema_id": "2.4.3", "titulo": "Deuda Arquitectónica" }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 3,
+      "titulo": "PATRONES MONOLÍTICOS",
+      "temas": [
+        {
+          "tema_id": "3.1",
+          "titulo": "Layered Architecture (Capas)",
+          "subtemas": [
+            { "subtema_id": "3.1.1", "titulo": "El estándar de facto" },
+            { "subtema_id": "3.1.2", "titulo": "Capa de Dominio" },
+            { "subtema_id": "3.1.3", "titulo": "Capa de Aplicación" },
+            { "subtema_id": "3.1.4", "titulo": "Capa de Infraestructura" }
+          ]
+        },
+        {
+          "tema_id": "3.2",
+          "titulo": "Microkernel",
+          "subtemas": [
+            { "subtema_id": "3.2.1", "titulo": "Plug-in architecture" },
+            { "subtema_id": "3.2.2", "titulo": "Extensibilidad" },
+            { "subtema_id": "3.2.3", "titulo": "Casos de uso reales" }
+          ]
+        },
+        {
+          "tema_id": "3.3",
+          "titulo": "Pipeline",
+          "subtemas": [
+            { "subtema_id": "3.3.1", "titulo": "Pipes and Filters" },
+            { "subtema_id": "3.3.2", "titulo": "Procesamiento por etapas" },
+            { "subtema_id": "3.3.3", "titulo": "Cadenas de responsabilidad" }
+          ]
+        },
+        {
+          "tema_id": "3.4",
+          "titulo": "Monolito Modular",
+          "subtemas": [
+            { "subtema_id": "3.4.1", "titulo": "Separación estricta de módulos" },
+            { "subtema_id": "3.4.2", "titulo": "Comunicación interna organizada" }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 4,
+      "titulo": "SISTEMAS DISTRIBUIDOS (EL SALTO)",
+      "temas": [
+        {
+          "tema_id": "4.1",
+          "titulo": "Falacias de la Computación Distribuida",
+          "subtemas": [
+            { "subtema_id": "4.1.1", "titulo": "Latencia no es cero" },
+            { "subtema_id": "4.1.2", "titulo": "La red no es confiable" },
+            { "subtema_id": "4.1.3", "titulo": "Topologías cambiantes" }
+          ]
+        },
+        {
+          "tema_id": "4.2",
+          "titulo": "Microservicios",
+          "subtemas": [
+            { "subtema_id": "4.2.1", "titulo": "Definición" },
+            { "subtema_id": "4.2.2", "titulo": "Peligros" },
+            { "subtema_id": "4.2.3", "titulo": "Diseño en torno a Bounded Contexts" },
+            { "subtema_id": "4.2.4", "titulo": "Anti-patrones de microservicios" }
+          ]
+        },
+        {
+          "tema_id": "4.3",
+          "titulo": "Service-Based Architecture",
+          "subtemas": [
+            { "subtema_id": "4.3.1", "titulo": "El punto medio" },
+            { "subtema_id": "4.3.2", "titulo": "Servicios coarse-grained" },
+            { "subtema_id": "4.3.3", "titulo": "Menos overhead que microservicios" }
+          ]
+        },
+        {
+          "tema_id": "4.4",
+          "titulo": "Monolito Distribuido (anti-patrón)",
+          "subtemas": [
+            { "subtema_id": "4.4.1", "titulo": "Síntomas" },
+            { "subtema_id": "4.4.2", "titulo": "Cómo evitarlo" }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 5,
+      "titulo": "COMUNICACIÓN Y EVENTOS",
+      "temas": [
+        {
+          "tema_id": "5.1",
+          "titulo": "Síncrono vs Asíncrono",
+          "subtemas": [
+            { "subtema_id": "5.1.1", "titulo": "REST" },
+            { "subtema_id": "5.1.2", "titulo": "gRPC" },
+            { "subtema_id": "5.1.3", "titulo": "WebSockets" },
+            { "subtema_id": "5.1.4", "titulo": "Mensajería asíncrona" }
+          ]
+        },
+        {
+          "tema_id": "5.2",
+          "titulo": "Event-Driven Architecture (EDA) y Event Sourcing",
+          "subtemas": [
+            { "subtema_id": "5.2.1", "titulo": "EDA" },
+            { "subtema_id": "5.2.2", "titulo": "Event Sourcing" },
+            { "subtema_id": "5.2.3", "titulo": "Eventos como fuente de verdad" },
+            { "subtema_id": "5.2.4", "titulo": "Patrón Outbox" }
+          ]
+        },
+        {
+          "tema_id": "5.3",
+          "titulo": "Brokers de Mensajería",
+          "subtemas": [
+            { "subtema_id": "5.3.1", "titulo": "Kafka" },
+            { "subtema_id": "5.3.2", "titulo": "RabbitMQ" },
+            { "subtema_id": "5.3.3", "titulo": "Azure Service Bus" },
+            { "subtema_id": "5.3.4", "titulo": "Redis Streams" }
+          ]
+        },
+        {
+          "tema_id": "5.4",
+          "titulo": "Diseño de Contratos",
+          "subtemas": [
+            { "subtema_id": "5.4.1", "titulo": "Versionamiento" },
+            { "subtema_id": "5.4.2", "titulo": "Backward compatibility" },
+            { "subtema_id": "5.4.3", "titulo": "Esquemas (JSON Schema, Protobuf)" }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 6,
+      "titulo": "DATOS A ESCALA",
+      "temas": [
+        {
+          "tema_id": "6.1",
+          "titulo": "Teorema CAP y PACELC",
+          "subtemas": [
+            { "subtema_id": "6.1.1", "titulo": "CAP" },
+            { "subtema_id": "6.1.2", "titulo": "PACELC" },
+            { "subtema_id": "6.1.3", "titulo": "Implicaciones en bases distribuidas" }
+          ]
+        },
+        {
+          "tema_id": "6.2",
+          "titulo": "Consistencia Eventual vs Fuerte",
+          "subtemas": [
+            { "subtema_id": "6.2.1", "titulo": "Modelos de consistencia" },
+            { "subtema_id": "6.2.2", "titulo": "Staleness" },
+            { "subtema_id": "6.2.3", "titulo": "Read your own writes" }
+          ]
+        },
+        {
+          "tema_id": "6.3",
+          "titulo": "Patrones de Datos Distribuidos",
+          "subtemas": [
+            { "subtema_id": "6.3.1", "titulo": "CQRS" },
+            { "subtema_id": "6.3.2", "titulo": "Database-per-service" },
+            { "subtema_id": "6.3.3", "titulo": "Materialized Views" },
+            { "subtema_id": "6.3.4", "titulo": "Replicación" }
+          ]
+        },
+        {
+          "tema_id": "6.4",
+          "titulo": "Transacciones Distribuidas",
+          "subtemas": [
+            { "subtema_id": "6.4.1", "titulo": "SAGA Pattern" },
+            { "subtema_id": "6.4.2", "titulo": "Coreografía vs Orquestación" },
+            { "subtema_id": "6.4.3", "titulo": "Two-Phase Commit (por qué evitarlo)" }
+          ]
+        }
+      ]
+    },
+    {
+      "modulo_id": 7,
+      "titulo": "RESILIENCIA Y OPERACIÓN",
+      "temas": [
+        {
+          "tema_id": "7.1",
+          "titulo": "Circuit Breaker y Retry Pattern",
+          "subtemas": [
+            { "subtema_id": "7.1.1", "titulo": "Circuit Breaker" },
+            { "subtema_id": "7.1.2", "titulo": "Retry Pattern" },
+            { "subtema_id": "7.1.3", "titulo": "Timeouts" },
+            { "subtema_id": "7.1.4", "titulo": "Bulkheads" }
+          ]
+        },
+        {
+          "tema_id": "7.2",
+          "titulo": "Observabilidad",
+          "subtemas": [
+            { "subtema_id": "7.2.1", "titulo": "Logs" },
+            { "subtema_id": "7.2.2", "titulo": "Metrics" },
+            { "subtema_id": "7.2.3", "titulo": "Tracing" },
+            { "subtema_id": "7.2.4", "titulo": "Correlación" },
+            { "subtema_id": "7.2.5", "titulo": "Dashboards" }
+          ]
+        },
+        {
+          "tema_id": "7.3",
+          "titulo": "Arquitectura Serverless y Cloud Native",
+          "subtemas": [
+            { "subtema_id": "7.3.1", "titulo": "Serverless" },
+            { "subtema_id": "7.3.2", "titulo": "Cloud Native" },
+            { "subtema_id": "7.3.3", "titulo": "Contenedores" },
+            { "subtema_id": "7.3.4", "titulo": "Kubernetes" },
+            { "subtema_id": "7.3.5", "titulo": "Autoscaling" }
+          ]
+        },
+        {
+          "tema_id": "7.4",
+          "titulo": "DevOps para Arquitectos",
+          "subtemas": [
+            { "subtema_id": "7.4.1", "titulo": "CI/CD" },
+            { "subtema_id": "7.4.2", "titulo": "Infraestructura como Código" },
+            { "subtema_id": "7.4.3", "titulo": "GitOps" }
+          ]
+        }
+      ]
+    }
+  ]
+}
