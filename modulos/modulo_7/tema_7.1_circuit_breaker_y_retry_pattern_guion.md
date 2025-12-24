@@ -9,7 +9,7 @@
 
 ## [00:00 - 00:30] INTRODUCCIÓN
 
-Bienvenido al tema 7.1: Circuit Breaker y Retry Pattern.
+Bienvenido al tema 7.1. Circuit Breaker y Retry Pattern.
 
 En este módulo vamos a explorar uno de los conceptos más importantes en arquitectura de software. Circuit Breaker y Retry Pattern es fundamental para diseñar sistemas robustos y escalables.
 

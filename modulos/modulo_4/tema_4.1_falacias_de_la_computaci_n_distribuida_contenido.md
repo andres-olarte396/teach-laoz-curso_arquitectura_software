@@ -1,4 +1,4 @@
-# Tema 4.1: Falacias de la Computación Distribuida
+# Tema 4.1. Falacias de la Computación Distribuida
 
 **Tiempo estimado**: 45 minutos  
 **Nivel**: Avanzado  
@@ -24,7 +24,7 @@ Las **8 Falacias de la Computación Distribuida** fueron identificadas por Peter
 
 ## Las 8 Falacias
 
-### Falacia 1: "La red es confiable"
+### Falacia 1. "La red es confiable"
 
 **Realidad**: La red SIEMPRE falla.
 

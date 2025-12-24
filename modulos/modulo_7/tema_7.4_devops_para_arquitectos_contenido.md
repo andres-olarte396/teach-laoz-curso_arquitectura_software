@@ -116,7 +116,7 @@ class BlueGreenDeployment:
 **Total**: 30 temas de contenido técnico de alta calidad
 
 - Módulo 0: Preconceptos (1 tema)
-- Módulo 1: Fundamentos (4 temas)
+- Módulo 1. Fundamentos (4 temas)
 - Módulo 2: Principios de Diseño (4 temas)
 - Módulo 3: Estilos Arquitectónicos (4 temas)
 - Módulo 4: Arquitecturas Distribuidas (4 temas)

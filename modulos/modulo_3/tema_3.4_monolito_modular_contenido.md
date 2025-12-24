@@ -82,7 +82,7 @@ ecommerce/
 └── main.py              # Punto de entrada
 ```
 
-### Módulo 1: Catalog (Catálogo de Productos)
+### Módulo 1. Catalog (Catálogo de Productos)
 
 ```python
 # modules/catalog/domain/product.py
@@ -504,7 +504,7 @@ CREATE SCHEMA checkout;
 **Ventaja del monolito modular**: Fácil extracción de módulos.
 
 ```python
-# Paso 1: Módulo como monolito
+# Paso 1. Módulo como monolito
 catalog_service = CatalogService(product_repo)
 
 # Paso 2: Extraer a microservicio

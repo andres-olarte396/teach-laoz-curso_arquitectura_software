@@ -1,4 +1,4 @@
-# Tema 6.1: Teorema CAP y PACELC
+# Tema 6.1. Teorema CAP y PACELC
 
 **Tiempo estimado**: 45 minutos  
 **Nivel**: Avanzado

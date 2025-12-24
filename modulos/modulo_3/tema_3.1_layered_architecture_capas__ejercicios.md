@@ -8,7 +8,7 @@
 
 ---
 
-## EJERCICIO 1: Implementar 3 Capas
+## EJERCICIO 1. Implementar 3 Capas
 
 ### METADATA
 

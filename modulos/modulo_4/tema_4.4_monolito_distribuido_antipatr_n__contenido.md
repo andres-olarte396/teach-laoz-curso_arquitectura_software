@@ -24,7 +24,7 @@
 ## Cómo se crea (accidentalmente)
 
 ```python
-# Paso 1: Empiezas con microservicios
+# Paso 1. Empiezas con microservicios
 class UserService:
     def create_user(self, data):
         # Crear usuario
@@ -93,7 +93,7 @@ class UserService:
 ```python
 # ❌ Transacción que span múltiples servicios
 def transfer_money(from_user, to_user, amount):
-    # Servicio 1: Debit
+    # Servicio 1. Debit
     requests.post('http://account-service/debit', {
         'user_id': from_user,
         'amount': amount
@@ -131,7 +131,7 @@ event_bus.publish('user.created', {'user_id': user_id})
 class OrderSaga:
     """Saga para crear orden (transacción distribuida)."""
     def execute(self, order_data):
-        # Paso 1: Reservar inventario
+        # Paso 1. Reservar inventario
         inventory_reserved = self.reserve_inventory(order_data['items'])
         
         if not inventory_reserved:

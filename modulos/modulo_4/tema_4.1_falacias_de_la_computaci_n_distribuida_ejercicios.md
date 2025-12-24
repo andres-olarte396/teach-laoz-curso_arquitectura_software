@@ -12,7 +12,7 @@
 
 ---
 
-## EJERCICIO 1: Identificar Falacias
+## EJERCICIO 1. Identificar Falacias
 
 ### METADATA
 
@@ -51,7 +51,7 @@ def process_order(order_id):
 
 **Falacias violadas**:
 
-1. **Falacia #1: "La red es confiable"**
+1. **Falacia #1. "La red es confiable"**
    - No hay manejo de errores
    - Mitigación: Try/except, retry, circuit breaker
 
@@ -191,7 +191,7 @@ Diseña un sistema que mitigue TODAS las 8 falacias.
 
 | Falacia | Mitigación | Patrón/Técnica |
 |---------|-----------|----------------|
-| #1: Red confiable | Retry, Circuit Breaker | Tenacity, pybreaker |
+| #1. Red confiable | Retry, Circuit Breaker | Tenacity, pybreaker |
 | #2: Latencia cero | Async, Caching | asyncio, Redis |
 | #3: Ancho de banda infinito | Compresión, Pagination | gzip, cursor-based |
 | #4: Red segura | TLS, JWT | HTTPS, Auth tokens |

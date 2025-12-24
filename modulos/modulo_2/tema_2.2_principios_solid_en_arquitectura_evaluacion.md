@@ -9,7 +9,7 @@
 
 ## CUESTIONARIO
 
-### Pregunta 1: Opción Múltiple
+### Pregunta 1. Opción Múltiple
 **¿Cuál de las siguientes afirmaciones sobre Principios SOLID en Arquitectura es correcta?**
 
 a) Interpretación práctica a nivel de componentes y módulos  

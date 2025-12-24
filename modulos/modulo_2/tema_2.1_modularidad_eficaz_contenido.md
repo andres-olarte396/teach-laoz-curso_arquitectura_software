@@ -1,4 +1,4 @@
-# Tema 2.1: Modularidad Eficaz
+# Tema 2.1. Modularidad Eficaz
 
 **Tiempo estimado**: 50 minutos  
 **Nivel**: Intermedio  
@@ -347,7 +347,7 @@ class ModularityAnalyzer:
         problems = []
         
         for module_name, metrics in self.modules.items():
-            # Problema 1: Módulos muy grandes
+            # Problema 1. Módulos muy grandes
             if metrics.lines_of_code > 500:
                 problems.append(
                     f"⚠️  {module_name}: Módulo muy grande ({metrics.lines_of_code} LOC). "

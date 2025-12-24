@@ -9,7 +9,7 @@
 
 ## CUESTIONARIO
 
-### Pregunta 1: Opción Múltiple
+### Pregunta 1. Opción Múltiple
 **¿Cuál de las siguientes afirmaciones sobre ¿Qué es realmente la Arquitectura? es correcta?**
 
 a) Estructura vs Comportamiento  

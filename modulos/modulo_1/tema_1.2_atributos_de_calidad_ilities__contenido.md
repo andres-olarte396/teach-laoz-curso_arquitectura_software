@@ -535,7 +535,7 @@ class QualityAttributeWorkshop:
 if __name__ == "__main__":
     qaw = QualityAttributeWorkshop("E-commerce Platform")
     
-    # Escenario 1: Performance
+    # Escenario 1. Performance
     qaw.add_scenario(QualityAttributeScenario(
         id="QA-001",
         attribute="Performance",
@@ -615,7 +615,7 @@ Total de escenarios: 5
 
 ## Prioridad: CRITICAL
 
-### QA-001: Performance
+### QA-001. Performance
 **Stakeholder**: Usuarios finales, Negocio
 
 **Estímulo**: 1000 usuarios concurrentes buscan productos
@@ -686,7 +686,7 @@ Total de escenarios: 5
 
 ## Errores frecuentes
 
-### ❌ Error 1: No priorizar atributos de calidad
+### ❌ Error 1. No priorizar atributos de calidad
 
 ```python
 # MAL: Intentar maximizar todos los atributos
@@ -705,7 +705,7 @@ requirements = {
 ```python
 # BIEN: Priorización clara
 quality_attributes_priority = {
-    1: 'Security',      # No negociable
+    1. 'Security',      # No negociable
     2: 'Availability',  # 99.9% SLA
     3: 'Performance',   # < 500ms p95
     4: 'Maintainability', # Importante pero no crítico
@@ -770,7 +770,7 @@ Elegir una arquitectura sin documentar qué se sacrifica.
 
 ## Aplicaciones reales
 
-### Caso 1: Amazon - Priorización de Availability
+### Caso 1. Amazon - Priorización de Availability
 
 **Contexto**: E-commerce global, cada minuto de downtime cuesta millones.
 

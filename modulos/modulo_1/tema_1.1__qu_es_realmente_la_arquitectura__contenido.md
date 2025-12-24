@@ -1,4 +1,4 @@
-# Tema 1.1: ¿Qué es realmente la arquitectura de software?
+# Tema 1.1. ¿Qué es realmente la arquitectura de software?
 
 **Tiempo estimado**: 45 minutos  
 **Nivel**: Básico  
@@ -139,7 +139,7 @@ Analicemos un caso real: **Twitter** en sus primeros años.
 
 #### Decisiones arquitectónicas tomadas
 
-**Decisión 1: Monolito Ruby on Rails**
+**Decisión 1. Monolito Ruby on Rails**
 
 - **Justificación**: Velocidad de desarrollo, equipo pequeño familiarizado con Rails
 - **Trade-off**: Sacrificaron escalabilidad futura por time-to-market
@@ -176,7 +176,7 @@ Analicemos un caso real: **Twitter** en sus primeros años.
 Un **Architecture Decision Record (ADR)** es un documento que captura una decisión arquitectónica importante.
 
 ```markdown
-# ADR-001: Adopción de Arquitectura de Microservicios
+# ADR-001. Adopción de Arquitectura de Microservicios
 
 ## Estado
 Aceptado
@@ -224,7 +224,7 @@ Migraremos a una arquitectura de microservicios con las siguientes característi
 
 ## Alternativas consideradas
 
-### Alternativa 1: Monolito modular
+### Alternativa 1. Monolito modular
 **Pros**: Menor complejidad, transacciones simples
 **Contras**: No resuelve el problema de deployments ni escalabilidad
 **Razón de rechazo**: No cumple con atributos de calidad prioritarios
@@ -445,7 +445,7 @@ def test_adr_generator():
     try:
         generator = ADRGenerator(temp_dir)
         
-        # Test 1: Crear primer ADR
+        # Test 1. Crear primer ADR
         path1 = generator.create_adr(
             title="Test Decision",
             context="Test context",
@@ -469,7 +469,7 @@ def test_adr_generator():
         # Test 3: Verificar contenido
         with open(path1, 'r', encoding='utf-8') as f:
             content = f.read()
-            assert "# ADR-001: Test Decision" in content
+            assert "# ADR-001. Test Decision" in content
             assert "## Estado" in content
             assert "## Consecuencias" in content
         
@@ -486,7 +486,7 @@ test_adr_generator()
 
 ## Variantes y enfoques
 
-### Enfoque 1: Architecture Decision Records (ADR)
+### Enfoque 1. Architecture Decision Records (ADR)
 
 **Cuándo usar**: Proyectos medianos a grandes, equipos distribuidos, necesidad de trazabilidad
 
@@ -525,7 +525,7 @@ Complementa ADRs con diagramas en 4 niveles:
 
 ## Errores frecuentes
 
-### ❌ Error 1: Confundir arquitectura con tecnología
+### ❌ Error 1. Confundir arquitectura con tecnología
 
 ```markdown
 # MAL: ADR centrado en tecnología
@@ -613,7 +613,7 @@ Triggers para revisión:
 
 ## Aplicaciones reales
 
-### Caso 1: Netflix - Arquitectura de microservicios
+### Caso 1. Netflix - Arquitectura de microservicios
 
 **Contexto**:
 

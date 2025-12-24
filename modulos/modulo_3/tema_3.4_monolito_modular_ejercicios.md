@@ -12,7 +12,7 @@
 
 ---
 
-## EJERCICIO 1: Diseñar Módulos
+## EJERCICIO 1. Diseñar Módulos
 
 ### METADATA
 

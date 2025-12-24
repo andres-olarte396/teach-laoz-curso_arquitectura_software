@@ -1,4 +1,4 @@
-# TEMA 3.1: LAYERED ARCHITECTURE (CAPAS)
+# TEMA 3.1. LAYERED ARCHITECTURE (CAPAS)
 
 **Tiempo estimado**: 45 minutos
 **Nivel**: Intermedio

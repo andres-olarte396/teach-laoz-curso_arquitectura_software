@@ -5,7 +5,7 @@
 
 ## Two-Phase Commit (2PC)
 
-**Fase 1: Prepare**
+**Fase 1. Prepare**
 
 - Coordinador pregunta a participantes si pueden commitear
 - Participantes responden Yes/No
@@ -23,7 +23,7 @@ class TwoPhaseCommitCoordinator:
     
     def execute_transaction(self, transaction_data):
         """Ejecutar transacción distribuida con 2PC."""
-        # Fase 1: Prepare
+        # Fase 1. Prepare
         prepared = []
         
         for participant in self.participants:
@@ -48,7 +48,7 @@ class TwoPhaseCommitCoordinator:
 class Participant:
     """Participante en 2PC."""
     def prepare(self, data):
-        """Fase 1: Preparar."""
+        """Fase 1. Preparar."""
         # Validar y lockear recursos
         return True  # o False si no puede commitear
     

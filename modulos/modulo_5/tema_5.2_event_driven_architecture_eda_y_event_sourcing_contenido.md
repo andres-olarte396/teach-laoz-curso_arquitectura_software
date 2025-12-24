@@ -46,14 +46,14 @@ Event-Driven Architecture (EDA) y Event Sourcing es un concepto clave en arquite
 
 ## Casos de uso en producción
 
-### Aplicación 1: Caso Real
+### Aplicación 1. Caso Real
 **Contexto**: Descripción del escenario
 **Solución**: Cómo se aplica este concepto
 **Resultado**: Impacto medible
 
 ## Errores frecuentes
 
-### ❌ Error 1: [Descripción]
+### ❌ Error 1. [Descripción]
 **Por qué falla**: Explicación técnica
 **Solución correcta**: Enfoque correcto
 

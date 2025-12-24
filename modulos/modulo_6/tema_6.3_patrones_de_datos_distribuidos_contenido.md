@@ -44,7 +44,7 @@ class OrderSaga:
     def execute(self, order_data):
         """Ejecutar saga."""
         try:
-            # Paso 1: Reservar inventario
+            # Paso 1. Reservar inventario
             inventory_id = self.reserve_inventory(order_data['items'])
             self.steps.append(('inventory', inventory_id))
             self.compensations.append(lambda: self.release_inventory(inventory_id))

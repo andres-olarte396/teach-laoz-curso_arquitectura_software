@@ -9,7 +9,7 @@
 
 ## [00:00 - 00:30] INTRODUCCIÓN
 
-Bienvenido al tema 6.1: Teorema CAP y PACELC.
+Bienvenido al tema 6.1. Teorema CAP y PACELC.
 
 En este módulo vamos a explorar uno de los conceptos más importantes en arquitectura de software. Teorema CAP y PACELC es fundamental para diseñar sistemas robustos y escalables.
 

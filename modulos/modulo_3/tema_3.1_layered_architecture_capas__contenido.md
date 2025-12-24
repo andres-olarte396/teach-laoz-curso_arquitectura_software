@@ -1,4 +1,4 @@
-# Tema 3.1: Layered Architecture (Arquitectura en Capas)
+# Tema 3.1. Layered Architecture (Arquitectura en Capas)
 
 **Tiempo estimado**: 50 minutos  
 **Nivel**: Intermedio  
@@ -52,7 +52,7 @@ Flujo: UI → Business → Persistence → DB
 
 ## Implementación: Sistema de E-commerce
 
-### Capa 1: Presentation (UI)
+### Capa 1. Presentation (UI)
 
 ```python
 from flask import Flask, request, jsonify, render_template

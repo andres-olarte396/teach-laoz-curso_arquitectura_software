@@ -245,7 +245,7 @@ class DocumentProcessingCore:
 ### Plugins (Implementaciones)
 
 ```python
-# ===== PLUGIN 1: PDF Processor =====
+# ===== PLUGIN 1. PDF Processor =====
 
 class PDFProcessor(DocumentProcessor):
     """Plugin para procesar archivos PDF."""

@@ -101,7 +101,7 @@ class Pipe:
 
 class LogReader(Filter):
     """
-    Filtro 1: Lee archivo de logs línea por línea.
+    Filtro 1. Lee archivo de logs línea por línea.
     """
     def process(self, file_path: str) -> Iterator[str]:
         """Lee archivo y retorna generador de líneas."""
@@ -238,7 +238,7 @@ def example_1_basic_pipeline():
     Pipeline básico: Leer logs → Parsear → Filtrar por nivel → Contar
     """
     print("="*60)
-    print("Example 1: Basic Log Processing Pipeline")
+    print("Example 1. Basic Log Processing Pipeline")
     print("="*60)
     
     # Crear pipeline

@@ -9,7 +9,7 @@
 
 ## [00:00 - 00:30] INTRODUCCIÓN
 
-Bienvenido al tema 1.1: ¿Qué es realmente la Arquitectura?.
+Bienvenido al tema 1.1. ¿Qué es realmente la Arquitectura?.
 
 En este módulo vamos a explorar uno de los conceptos más importantes en arquitectura de software. ¿Qué es realmente la Arquitectura? es fundamental para diseñar sistemas robustos y escalables.
 

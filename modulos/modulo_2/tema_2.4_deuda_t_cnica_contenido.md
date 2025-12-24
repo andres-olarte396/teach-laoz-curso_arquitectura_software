@@ -398,7 +398,7 @@ def _is_processable(order):
 **Concepto**: Reemplazar sistema legacy gradualmente, no big bang rewrite.
 
 ```python
-# Paso 1: Crear nueva implementación
+# Paso 1. Crear nueva implementación
 class NewOrderService:
     def create_order(self, data):
         # Nueva implementación limpia
@@ -434,7 +434,7 @@ class OrderServiceRouter:
 Reducir deuda técnica crítica en 50%
 
 ## Items seleccionados (del register)
-1. TD-001: Centralizar autenticación (40h)
+1. TD-001. Centralizar autenticación (40h)
 2. TD-002: Tests de integración checkout (16h)
 3. TD-005: Refactorizar OrderService (24h)
 

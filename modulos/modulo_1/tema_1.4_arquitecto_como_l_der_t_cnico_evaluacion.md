@@ -9,7 +9,7 @@
 
 ## CUESTIONARIO
 
-### Pregunta 1: Opción Múltiple
+### Pregunta 1. Opción Múltiple
 **¿Cuál de las siguientes afirmaciones sobre Arquitecto como Líder Técnico es correcta?**
 
 a) Comunicación  

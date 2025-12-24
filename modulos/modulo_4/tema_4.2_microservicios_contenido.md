@@ -131,7 +131,7 @@ def create_order():
 
 ## Implementación: E-commerce con Microservicios
 
-### Servicio 1: User Service
+### Servicio 1. User Service
 
 ```python
 # user_service/app.py

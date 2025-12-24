@@ -9,7 +9,7 @@
 
 ## CUESTIONARIO
 
-### Pregunta 1: Opción Múltiple
+### Pregunta 1. Opción Múltiple
 **¿Cuál de las siguientes afirmaciones sobre Microservicios es correcta?**
 
 a) Definición  

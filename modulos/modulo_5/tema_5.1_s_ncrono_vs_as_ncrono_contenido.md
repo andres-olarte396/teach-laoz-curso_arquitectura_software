@@ -1,4 +1,4 @@
-# Tema 5.1: Comunicación Síncrona vs Asíncrona
+# Tema 5.1. Comunicación Síncrona vs Asíncrona
 
 **Tiempo estimado**: 40 minutos  
 **Nivel**: Intermedio  
@@ -56,7 +56,7 @@ print(user)  # Solo se ejecuta después de recibir respuesta
 
 ```python
 def process_order(order_id):
-    # Llamada 1: 100ms
+    # Llamada 1. 100ms
     user = get_user(order['user_id'])
     
     # Llamada 2: 200ms

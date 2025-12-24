@@ -252,7 +252,7 @@ class OrganizationalAnalyzer:
         """
         warnings = []
         
-        # Violación 1: Equipos que no se comunican pero comparten componentes
+        # Violación 1. Equipos que no se comunican pero comparten componentes
         for team1_name, team1 in self.teams.items():
             for team2_name, team2 in self.teams.items():
                 if team1_name >= team2_name:
@@ -308,7 +308,7 @@ class OrganizationalAnalyzer:
             comm_matrix[comm.from_team][comm.to_team] = comm.frequency
             comm_matrix[comm.to_team][comm.from_team] = comm.frequency
         
-        # Sugerencia 1: Fusionar equipos con alta comunicación
+        # Sugerencia 1. Fusionar equipos con alta comunicación
         for team1_name in self.teams:
             for team2_name in self.teams:
                 if team1_name >= team2_name:
@@ -534,7 +534,7 @@ Responsabilidades:
 
 ## Errores frecuentes
 
-### ❌ Error 1: Ignorar la Ley de Conway
+### ❌ Error 1. Ignorar la Ley de Conway
 
 ```markdown
 # MAL: Diseñar arquitectura sin considerar organización
@@ -557,7 +557,7 @@ Resultado: Fracaso. Los equipos seguirán trabajando en capas, no en servicios.
 ```markdown
 # BIEN: Reorganizar para soportar la arquitectura deseada
 
-Paso 1: Reorganizar en equipos de producto
+Paso 1. Reorganizar en equipos de producto
 - Team Checkout (8 personas: 2 FE, 4 BE, 1 QA, 1 Ops)
 - Team Catalog (7 personas: 2 FE, 3 BE, 1 QA, 1 Ops)
 - Team User Management (6 personas: 1 FE, 3 BE, 1 QA, 1 Ops)
@@ -611,7 +611,7 @@ Resultado: Deadlock organizacional, deploys bloqueados.
 
 ## Aplicaciones reales
 
-### Caso 1: Spotify - Modelo de Squads, Tribes, Chapters, Guilds
+### Caso 1. Spotify - Modelo de Squads, Tribes, Chapters, Guilds
 
 **Organización**:
 

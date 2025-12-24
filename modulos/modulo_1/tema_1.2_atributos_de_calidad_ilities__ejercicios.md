@@ -8,7 +8,7 @@
 
 ---
 
-## EJERCICIO 1: Identificar Trade-offs
+## EJERCICIO 1. Identificar Trade-offs
 
 ### METADATA
 

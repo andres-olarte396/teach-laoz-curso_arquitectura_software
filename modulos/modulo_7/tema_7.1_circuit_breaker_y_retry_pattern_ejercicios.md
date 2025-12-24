@@ -13,7 +13,7 @@
 
 ---
 
-## EJERCICIO 1: Implementar Circuit Breaker Completo
+## EJERCICIO 1. Implementar Circuit Breaker Completo
 
 ### METADATA
 
@@ -62,7 +62,7 @@ class CircuitBreaker:
 ### CASOS DE PRUEBA
 
 ```python
-# Test 1: Estado inicial
+# Test 1. Estado inicial
 cb = CircuitBreaker()
 assert cb.state == CircuitState.CLOSED
 

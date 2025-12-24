@@ -14,7 +14,7 @@
 
 ---
 
-## EJERCICIO 1: Implementar Port y Adapter
+## EJERCICIO 1. Implementar Port y Adapter
 
 ### METADATA
 
@@ -85,7 +85,7 @@ class NotificationService:
 ### CASOS DE PRUEBA
 
 ```python
-# Test 1: Email adapter
+# Test 1. Email adapter
 email_adapter = EmailAdapter()
 service = NotificationService(email_adapter)
 assert service.notify_user('user@example.com', 'Hello') == True

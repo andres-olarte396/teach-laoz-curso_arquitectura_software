@@ -9,7 +9,7 @@
 
 ## [00:00 - 00:30] INTRODUCCIÓN
 
-Bienvenido al tema 3.1: Layered Architecture (Capas).
+Bienvenido al tema 3.1. Layered Architecture (Capas).
 
 En este módulo vamos a explorar uno de los conceptos más importantes en arquitectura de software. Layered Architecture (Capas) es fundamental para diseñar sistemas robustos y escalables.
 

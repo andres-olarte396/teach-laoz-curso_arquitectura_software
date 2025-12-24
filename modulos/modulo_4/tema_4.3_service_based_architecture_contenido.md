@@ -50,7 +50,7 @@
 ## Implementación
 
 ```python
-# Servicio 1: Customer Service (Dominio de clientes)
+# Servicio 1. Customer Service (Dominio de clientes)
 from flask import Flask, jsonify, request
 
 app = Flask(__name__)

@@ -9,7 +9,7 @@
 
 ## [00:00 - 00:30] INTRODUCCIÓN
 
-Bienvenido al tema 5.1: Síncrono vs Asíncrono.
+Bienvenido al tema 5.1. Síncrono vs Asíncrono.
 
 En este módulo vamos a explorar uno de los conceptos más importantes en arquitectura de software. Síncrono vs Asíncrono es fundamental para diseñar sistemas robustos y escalables.
 

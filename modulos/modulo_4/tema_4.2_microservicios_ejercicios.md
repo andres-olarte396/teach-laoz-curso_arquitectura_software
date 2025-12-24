@@ -14,7 +14,7 @@
 
 ---
 
-## EJERCICIO 1: Implementar API Gateway
+## EJERCICIO 1. Implementar API Gateway
 
 ### METADATA
 
@@ -98,7 +98,7 @@ def gateway_route(service, endpoint):
 #### Casos básicos
 
 ```python
-# Test 1: Routing exitoso
+# Test 1. Routing exitoso
 gateway = APIGateway()
 response, status = gateway.route_request('user', '/users/123')
 assert status == 200
@@ -198,7 +198,7 @@ if __name__ == '__main__':
 
 ### ERRORES COMUNES Y DIAGNÓSTICO
 
-#### ❌ Error 1: No manejar timeout
+#### ❌ Error 1. No manejar timeout
 
 ```python
 # Código incorrecto
@@ -294,7 +294,7 @@ class CircuitBreaker:
 ### CASOS DE PRUEBA
 
 ```python
-# Test 1: Estado inicial CLOSED
+# Test 1. Estado inicial CLOSED
 cb = CircuitBreaker()
 assert cb.state == CircuitState.CLOSED
 

@@ -9,7 +9,7 @@
 
 ## [00:00 - 00:30] INTRODUCCIÓN
 
-Bienvenido al tema 2.1: Modularidad Eficaz.
+Bienvenido al tema 2.1. Modularidad Eficaz.
 
 En este módulo vamos a explorar uno de los conceptos más importantes en arquitectura de software. Modularidad Eficaz es fundamental para diseñar sistemas robustos y escalables.
 

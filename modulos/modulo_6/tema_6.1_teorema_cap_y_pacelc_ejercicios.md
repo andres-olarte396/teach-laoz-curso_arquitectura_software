@@ -8,7 +8,7 @@
 
 ---
 
-## EJERCICIO 1: Clasificar Sistemas según CAP
+## EJERCICIO 1. Clasificar Sistemas según CAP
 
 ### METADATA
 

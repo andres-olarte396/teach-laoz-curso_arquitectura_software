@@ -2,7 +2,7 @@
 
 ## Ejercicios Conceptuales
 
-### Ejercicio 1: Comprensión ⭐
+### Ejercicio 1. Comprensión ⭐
 **Objetivo**: Verificar comprensión de conceptos básicos
 
 **Pregunta**: Explica con tus propias palabras qué es DevOps para Arquitectos y por qué es importante.

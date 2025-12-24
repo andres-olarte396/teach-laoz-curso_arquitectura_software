@@ -21,7 +21,7 @@
 1. [Guía de Uso del Curso](#guia-uso)
 2. [Arquitectura Curricular](#arquitectura)
 3. [Módulo 0: Preconceptos Fundamentales](#modulo-0)
-4. [Módulo 1: Fundamentos de Arquitectura](#modulo-1)
+4. [Módulo 1. Fundamentos de Arquitectura](#modulo-1)
 5. [Módulo 2: Principios de Diseño](#modulo-2)
 6. [Módulo 3: Estilos Arquitectónicos Fundamentales](#modulo-3)
 7. [Módulo 4: Arquitecturas Distribuidas](#modulo-4)
@@ -90,7 +90,7 @@
 - Nivelación de conceptos base
 - 20 preconceptos esenciales
 
-**Módulo 1: Fundamentos de Arquitectura** (12 horas)
+**Módulo 1. Fundamentos de Arquitectura** (12 horas)
 
 - ¿Qué es realmente la arquitectura?
 - Atributos de Calidad (-ilities)
@@ -200,13 +200,13 @@ Antes de avanzar al Módulo 1, verifica:
 
 ---
 
-## MÓDULO 1: FUNDAMENTOS DE ARQUITECTURA {#modulo-1}
+## MÓDULO 1. FUNDAMENTOS DE ARQUITECTURA {#modulo-1}
 
 ### Objetivo del Módulo
 
 Establecer los fundamentos de arquitectura de software, incluyendo definiciones, atributos de calidad, y el rol del arquitecto.
 
-### Tema 1.1: ¿Qué es realmente la arquitectura de software?
+### Tema 1.1. ¿Qué es realmente la arquitectura de software?
 
 **Duración**: 3 horas
 
@@ -274,7 +274,7 @@ Establecer los fundamentos de arquitectura de software, incluyendo definiciones,
 
 Dominar principios fundamentales de diseño arquitectónico: modularidad, SOLID, arquitectura limpia y gestión de deuda técnica.
 
-### Tema 2.1: Modularidad Eficaz
+### Tema 2.1. Modularidad Eficaz
 
 **Duración**: 4 horas
 
@@ -339,7 +339,7 @@ Dominar principios fundamentales de diseño arquitectónico: modularidad, SOLID,
 
 Dominar los estilos arquitectónicos fundamentales: capas, microkernel, pipeline y monolito modular.
 
-### Tema 3.1: Layered Architecture (Arquitectura en Capas)
+### Tema 3.1. Layered Architecture (Arquitectura en Capas)
 
 **Duración**: 4 horas
 
@@ -407,7 +407,7 @@ Dominar los estilos arquitectónicos fundamentales: capas, microkernel, pipeline
 
 Dominar arquitecturas distribuidas: falacias, microservicios, service-based architecture y anti-patrones.
 
-### Tema 4.1: Falacias de la Computación Distribuida
+### Tema 4.1. Falacias de la Computación Distribuida
 
 **Duración**: 4.5 horas
 
@@ -476,7 +476,7 @@ Dominar arquitecturas distribuidas: falacias, microservicios, service-based arch
 
 Dominar arquitecturas basadas en eventos: comunicación asíncrona, event-driven, event sourcing y brokers.
 
-### Tema 5.1: Comunicación Síncrona vs Asíncrona
+### Tema 5.1. Comunicación Síncrona vs Asíncrona
 
 **Duración**: 4 horas
 
@@ -543,7 +543,7 @@ Dominar arquitecturas basadas en eventos: comunicación asíncrona, event-driven
 
 Dominar gestión de datos en sistemas distribuidos: CAP, consistencia, patrones y transacciones.
 
-### Tema 6.1: Teorema CAP y PACELC
+### Tema 6.1. Teorema CAP y PACELC
 
 **Duración**: 4.5 horas
 
@@ -611,7 +611,7 @@ Dominar gestión de datos en sistemas distribuidos: CAP, consistencia, patrones 
 
 Dominar arquitecturas modernas: patrones de resiliencia, observabilidad, serverless y DevOps.
 
-### Tema 7.1: Patrones de Resiliencia (Circuit Breaker, Retry, Bulkhead)
+### Tema 7.1. Patrones de Resiliencia (Circuit Breaker, Retry, Bulkhead)
 
 **Duración**: 4.5 horas
 

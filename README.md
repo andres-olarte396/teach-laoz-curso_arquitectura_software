@@ -74,7 +74,7 @@ Este curso te llevará desde los fundamentos de arquitectura de software hasta e
 - 20 conceptos esenciales de arquitectura
 - Nivelación de conocimientos base
 
-### Módulo 1: Fundamentos de Arquitectura
+### Módulo 1. Fundamentos de Arquitectura
 
 - Definición y rol de la arquitectura
 - Atributos de calidad (-ilities)
@@ -154,7 +154,7 @@ curso_arquitectura_software/
 
 ## 🚀 Cómo Empezar
 
-### Opción 1: Lectura Rápida (Recomendada para Empezar)
+### Opción 1. Lectura Rápida (Recomendada para Empezar)
 
 1. **Lee este README completo** (10 minutos)
 2. **Consulta el [INDICE.md](INDICE.md)** para ver todos los temas (5 minutos)
@@ -290,7 +290,7 @@ kubectl version
    ↓
 3. Módulo 0: Preconceptos
    ↓
-4. Módulo 1: Fundamentos
+4. Módulo 1. Fundamentos
    ↓
 5. ... (continuar secuencialmente)
 ```

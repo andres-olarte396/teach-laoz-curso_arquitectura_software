@@ -1,4 +1,4 @@
-# Tema 7.1: Patrones de Resiliencia (Circuit Breaker, Retry, Bulkhead)
+# Tema 7.1. Patrones de Resiliencia (Circuit Breaker, Retry, Bulkhead)
 
 **Tiempo estimado**: 45 minutos  
 **Nivel**: Avanzado

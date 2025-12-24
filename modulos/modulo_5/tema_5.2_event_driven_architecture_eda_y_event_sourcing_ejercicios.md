@@ -13,7 +13,7 @@
 
 ---
 
-## EJERCICIO 1: Implementar Event Bus
+## EJERCICIO 1. Implementar Event Bus
 
 ### METADATA
 
@@ -62,7 +62,7 @@ class EventBus:
 ### CASOS DE PRUEBA
 
 ```python
-# Test 1: Suscripción y publicación básica
+# Test 1. Suscripción y publicación básica
 bus = EventBus()
 received_events = []
 

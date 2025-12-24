@@ -1,4 +1,4 @@
-# TEMA 1.1: ¿QUÉ ES REALMENTE LA ARQUITECTURA?
+# TEMA 1.1. ¿QUÉ ES REALMENTE LA ARQUITECTURA?
 
 **Tiempo estimado**: 45 minutos  
 **Nivel**: Intermedio  
